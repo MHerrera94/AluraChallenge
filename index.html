@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alura Challenger</title>
+    <link rel="shortcut icon" href="./Source/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/myreset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <div class="principal">
+        <img id="logo"class="logo" src="./Source/aluraoracle.jpg" alt="aluraLogo" />
+        <div class="encriptado">
+            <div class="ingreso">
+                <p>
+                    <textarea name="user_input" id="ingreso" cols="30" rows="10" placeholder="Ingrese aqui el texto"></textarea>
+                </p>
+                <h1>Ingrese solo letras minusculas sin acentos</h1>
+            </div>
+            <div class="button">
+                <p id="encriptar" class="encriptar">
+                    <input type="button" value="Encriptar" />
+                </p>
+                <p id="desencriptar" class="desencriptar">
+                    <input type="button" value="Desencriptar" />
+                </p>
+            </div>
+        </div>
+        <div class="rectangulo">
+            <div id="image" class="image">
+                <img src="./Source/muneco.svg" alt="" />
+            </div>
+            <div id="msg_result" class="resultado">
+                <h1 id="h1_result">Ningun mensaje encontrado</h1>
+            </div>
+            <div class="leyenda-banner" id="resultado">
+                <h1>Ingrese el texto que desea encriptar o desencriptar.</h1>
+            </div>
+            <p id="p_input" class="hide"><input class="hide" type="submit" name="copiar" id="copiar" value="Copiar" /></p>
+        </div>
+    </div>
+    <footer>
+        <h1>Development By Miguel Herrera for Alura Challenger G4 2023</h1>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
