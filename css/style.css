@@ -1,0 +1,42 @@
+html {
+  height: 100vh;
+}
+body {
+  background: #f3f5fc;
+  font-family: "Inter";
+  height: 100vh;
+  overflow: hidden;
+}
+.principal {
+  width: 100%;
+  padding: 1em;
+  position: absolute;
+  height: 90%;
+}
+.encriptar:hover {
+  background: #e5e5e5;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+}
+.desencriptar:hover {
+    background: #0A3871;
+    border: none;
+    color: #fff;
+}
+.copiar:hover {
+    background: #0A3871;
+    border: none;
+    color: #fff;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background: #000;
+  color: rgb(255, 0, 0);
+  font-size: 1em;
+  font-family: inherit;
+  padding: 0.5em 0;
+}
