@@ -123,6 +123,7 @@ body {
         margin-top: 1em;
         position: relative;
         padding: 1em;
+        bottom: 1.5em;
     }
     .resultado {
         font-style: normal;
@@ -476,6 +477,7 @@ body {
         padding: 1em;
         position: absolute;
         right: 0;
+        top: 0;
     }
     .resultado {
         font-style: normal;
