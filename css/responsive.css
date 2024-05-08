@@ -1,7 +1,6 @@
-
 body {
-    width: 100%;
-    font-size: 16px;
+  width: 100%;
+  font-size: 16px;
 }
 
 /* -- MEDIA QUERYS -- */
@@ -11,178 +10,180 @@ body {
     ------------------------------------------------------------------------- */
 
 @media screen and (min-width: 320px) {
-    .principal {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .logo {
-        width: 70%;
-        height: 13%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-    }
-    .encriptado {
-        width: 100%;
-        max-height: 60%;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-    }
-    .ingreso {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        height: 70%;
-    }
-    .ingreso p {
-        display: flex;
-        flex-direction: column;
-        height: 90%;
-        width: 100%;
-        padding-top: 1em;
-
-    }
-    .ingreso textarea {
-        width: inherit;
-        border: none;
-        background: none;
-        font-size: 1em;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
-        color: #495057;
-    }
-    .button {
-        width: 100%;
-        height: 30%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-    .ingreso h1 {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 0.9em;
-        line-height: 150%;
-        color: #495057;
-        background: url(../Source/Vector.png) no-repeat center left /1em;
-        padding-left: 1.5em;
-    }
-    .button p {
-        width: 100%;
-        max-height: 100%;
-        margin: 0.3em auto;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0.5em;
-        border-radius: 2em;
-    }
-    .encriptar {
-        background: #0A3871;
-        
-    }
-    .encriptar input{
-        color: inherit;
-    }
-    .desencriptar {
-        background: #E5E5E5;
-        border: 1px solid #0A3871;
-    }
-    .desencriptar input{
-        color: inherit;
-    }
-    .button p input {
-        background: none;
-        border: none;
-        margin: 0 auto;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 0.8em;
-        line-height: 120%;
-    }
-    .image {
-        display: none;
-    }
-    .rectangulo {
-        /* Table 5 */ /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        height: 100%;
-        /* White */ background: #FFFFFF;
-        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-        border-radius: 1em;
-        margin: 0 auto;
-        margin-top: 1em;
-        position: relative;
-        padding: 1em;
-    }
-    .resultado {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 1.5em;
-        line-height: 150%;
-        /* or 29 pixels */ text-align: center;
-        /* Gray/gray-500 */ color: #343A40;
-        /* Auto layout inside */ flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-    .leyenda-banner {
-        margin: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1em;
-        line-height: 120%;
-        /* or 24 pixels */
-        text-align: center;
-        /* Gray/gray-400 */
-        color: #495057;
-        /* Auto layout inside */
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-    }  
-    .copiar {
-        background: #E5E5E5;
-        border: 1px solid #0A3871;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.5em;
-        line-height: 120%;
-        width: 90%;
-        max-height: 50%;
-        margin: 0.3em auto;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0.5em;
-        text-align: center;
-        border-radius: 2em;
-        order: 2;
-        bottom: 0;
-        position: absolute;
-    }
-    #copiar {
-        border: none;
-        background: none;
-        margin: 0 auto;
-        font-family: inherit;
-        font-size: inherit;
-        color: #0A3871;
-    } 
-    .hide{
-        display: none;
-    } 
+  .principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo {
+    width: 70%;
+    height: 13%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .encriptado {
+    width: 100%;
+    max-height: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .ingreso {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70%;
+  }
+  .ingreso p {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    padding-top: 1em;
+  }
+  .ingreso textarea {
+    width: inherit;
+    border: none;
+    background: none;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #495057;
+  }
+  .button {
+    width: 100%;
+    height: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .ingreso h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 150%;
+    color: #495057;
+    background: url(../Source/Vector.png) no-repeat center left / 1em;
+    padding-left: 1.5em;
+  }
+  .button p {
+    width: 100%;
+    max-height: 100%;
+    margin: 0.3em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5em;
+    border-radius: 2em;
+  }
+  .encriptar {
+    background: #0a3871;
+  }
+  .encriptar input {
+    color: inherit;
+  }
+  .desencriptar {
+    background: #e5e5e5;
+    border: 1px solid #0a3871;
+  }
+  .desencriptar input {
+    color: inherit;
+  }
+  .button p input {
+    background: none;
+    border: none;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 120%;
+  }
+  .image {
+    display: none;
+  }
+  .rectangulo {
+    /* Table 5 */ /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    /* White */
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
+    position: relative;
+    padding: 1em;
+  }
+  .resultado {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 150%;
+    /* or 29 pixels */
+    text-align: center;
+    /* Gray/gray-500 */
+    color: #343a40;
+    /* Auto layout inside */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .leyenda-banner {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 120%;
+    /* or 24 pixels */
+    text-align: center;
+    /* Gray/gray-400 */
+    color: #495057;
+    /* Auto layout inside */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .copiar {
+    background: #e5e5e5;
+    border: 1px solid #0a3871;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 120%;
+    width: 90%;
+    max-height: 50%;
+    margin: 0.3em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 2em;
+    order: 2;
+    bottom: 0;
+    position: absolute;
+  }
+  #copiar {
+    border: none;
+    background: none;
+    margin: 0 auto;
+    font-family: inherit;
+    font-size: inherit;
+    color: #0a3871;
+  }
+  .hide {
+    display: none;
+  }
 }
 
 /* Móviles en horizontal o tablets en vertical
@@ -190,163 +191,165 @@ body {
     ------------------------------------------------------------------------- */
 
 @media screen and (min-width: 768px) {
-    .principal {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        height: 100%;
-    }
-    .logo {
-        width: 45%;
-        height: 13%;
-    }
-    .ingreso {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        height: 70%;
-        padding: 1em;
-    }
-    .ingreso p {
-        display: flex;
-        flex-direction: column;
-        height: 90%;
-        width: 100%;
-        padding-top: 1em;
+  .principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .logo {
+    width: 45%;
+    height: 13%;
+  }
+  .ingreso {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70%;
+    padding: 1em;
+  }
+  .ingreso p {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    padding-top: 1em;
+  }
+  .ingreso textarea {
+    width: inherit;
+    border: none;
+    background: none;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #495057;
+  }
+  .ingreso h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 150%;
+    color: #495057;
+    background: url(../Source/Vector.png) no-repeat center left / 1em;
+    padding-left: 1.5em;
+  }
+  .button {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1em 0;
+  }
 
-    }
-    .ingreso textarea {
-        width: inherit;
-        border: none;
-        background: none;
-        font-size: 2.5em;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
-        color: #495057;
-    }
-    .ingreso h1 {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.5em;
-        line-height: 150%;
-        color: #495057;
-        background: url(../Source/Vector.png) no-repeat center left /1em;
-        padding-left: 1.5em;
-    }
-    .button {
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        padding: 1em 0;
-    }
-    
-    .button p {
-        width: 100%;
-        max-height: 100%;
-        margin: 0.5em;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1em;
-        border-radius: 2em;
-    }
-    .encriptar {
-        background: #0A3871;
-        color: #FFFFFF;
-        
-    }
-    .encriptar input{
-        color: inherit;
-    }
-    .desencriptar {
-        background: #E5E5E5;
-        border: 1px solid #0A3871;
-    }
-    .desencriptar input{
-        color: inherit;
-    }
-    .button p input {
-        background: none;
-        border: none;
-        margin: auto;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.2em;
-        line-height: 120%;
-    }
-    .rectangulo {
-        /* Table 5 */ /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        height: 100%;
-        /* White */ background: #FFFFFF;
-        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-        border-radius: 1em;
-        margin: 0 auto;
-        margin-top: 1em;
-        position: relative;
-        padding: 1em;
-    }
-    .resultado {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 2em;
-        line-height: 150%;
-        /* or 29 pixels */ text-align: center;
-        /* Gray/gray-500 */ color: #343A40;
-        /* Auto layout inside */ flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-    .leyenda-banner {
-        margin: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.5em;
-        line-height: 120%;
-        /* or 24 pixels */
-        text-align: center;
-        /* Gray/gray-400 */
-        color: #495057;
-        /* Auto layout inside */
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-    }  
-    .copiar {
-        background: #E5E5E5;
-        border: 1px solid #0A3871;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.5em;
-        line-height: 120%;
-        width: 100%;
-        max-height: 50%;
-        margin: 0.3em auto;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0.5em;
-        text-align: center;
-        border-radius: 2em;
-    }
-    #copiar {
-        border: none;
-        background: none;
-        margin: 0 auto;
-        color: inherit;
-    } 
-    .hide{
-        display: none;
-    } 
+  .button p {
+    width: 100%;
+    max-height: 100%;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+    border-radius: 2em;
+  }
+  .encriptar {
+    background: #0a3871;
+    color: #ffffff;
+  }
+  .encriptar input {
+    color: inherit;
+  }
+  .desencriptar {
+    background: #e5e5e5;
+    border: 1px solid #0a3871;
+  }
+  .desencriptar input {
+    color: inherit;
+  }
+  .button p input {
+    background: none;
+    border: none;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 120%;
+  }
+  .rectangulo {
+    /* Table 5 */ /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    /* White */
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
+    position: relative;
+    padding: 1em;
+  }
+  .resultado {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 150%;
+    /* or 29 pixels */
+    text-align: center;
+    /* Gray/gray-500 */
+    color: #343a40;
+    /* Auto layout inside */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .leyenda-banner {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 120%;
+    /* or 24 pixels */
+    text-align: center;
+    /* Gray/gray-400 */
+    color: #495057;
+    /* Auto layout inside */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .copiar {
+    background: #e5e5e5;
+    border: 1px solid #0a3871;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 120%;
+    width: 100%;
+    max-height: 50%;
+    margin: 0.3em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 2em;
+  }
+  #copiar {
+    border: none;
+    background: none;
+    margin: 0 auto;
+    color: inherit;
+  }
+  .hide {
+    display: none;
+  }
 }
 
 /* Tablets en horizonal y escritorios normales
@@ -354,195 +357,199 @@ body {
    ------------------------------------------------------------------------- */
 
 @media screen and (min-width: 1024px) {
-    .principal {
-        display: block;
-        position: relative;
-        height: 90%;
-    }
-    .logo {
-        width: 15%;
-        height: 13%;
-        margin: 0 auto;
-        display: block;
-        flex-direction: column;
-        position: absolute;
-    }
-    .encriptado {
-        width: 70%;
-        height: 100%;
-        display: block;
-        position: absolute;
-        padding: 1em 1em 0 1em;
-        margin: 2em 1.5em;
-        bottom: 2em;
-    }
-    .ingreso {
-        width: 100%;
-        display: block;
-        height: 100%;
-        padding: 1em;
-        position: relative;
-    }
-    .ingreso p {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-        padding-top: 1em;
+  .principal {
+    display: block;
+    position: relative;
+    height: 90%;
+    width: 99%;
+  }
+  .logo {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    flex-direction: column;
+    position: absolute;
+  }
+  .encriptado {
+    width: 70%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    padding: 1em 1em 0 1em;
+    margin: 2em 1.5em;
+    bottom: 2em;
+  }
+  .ingreso {
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding: 1em;
+    position: relative;
+  }
+  .ingreso p {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-top: 1em;
+  }
+  .ingreso textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #495057;
+    max-height: 100%;
+    position: absolute;
+    top: -1em;
+  }
+  .ingreso h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 150%;
+    color: #495057;
+    background: url(../Source/Vector.png) no-repeat center left / 1em;
+    padding-left: 1.5em;
+  }
+  .button {
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    /*position: absolute;*/
+  }
 
-    }
-    .ingreso textarea {
-        width: 100%;
-        border: none;
-        background: none;
-        font-size: 1.5em;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
-        color: #495057;
-        max-height: 100%;
-        position: absolute;
-        top: -1em;
-    }
-    .ingreso h1 {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1em;
-        line-height: 150%;
-        color: #495057;
-        background: url(../Source/Vector.png) no-repeat center left /1em;
-        padding-left: 1.5em;
-    }
-    .button {
-        width: 100%;
-        height: 30%;
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-    }
-    
-    .button p {
-        width: 100%;
-        max-height: 100%;
-        margin: 0.3em;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 1em;
-        border-radius: 2em;
-    }
-    .encriptar {
-        background: #0A3871;
-        color: #FFFFFF;
-        
-    }
-    .encriptar input{
-        color: inherit;
-    }
-    .desencriptar {
-        background: #E5E5E5;
-        border: 1px solid #0A3871;
-    }
-    .desencriptar input{
-        color: inherit;
-    }
-    .button p input {
-        background: none;
-        border: none;
-        margin: 0 auto;
-        font-family: inherit;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1em;
-        line-height: 120%;
-    }
-    .image {
-        display: flex;
-        max-width: 100%;
-        flex-direction: column;
-    }
-    .rectangulo {
-        /* Table 5 */ /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width:20%;
-        height: 100%;
-        /* White */ background: #FFFFFF;
-        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-        border-radius: 1em;
-        margin: 1em;
-        padding: 1em;
-        position: absolute;
-        right: 0;
-    }
-    .resultado {
-        font-style: normal;
-        display: flex;
-        flex-direction: column;
-        font-weight: 700;
-        font-size: 2em;
-        line-height: 150%;
-        /* or 29 pixels */ text-align: center;
-        /* Gray/gray-500 */ color: #343A40;
-        /* Auto layout inside */ flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-    .leyenda-banner {
-        margin: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.5em;
-        line-height: 120%;
-        /* or 24 pixels */
-        text-align: center;
-        /* Gray/gray-400 */
-        color: #495057;
-        /* Auto layout inside */
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-    } 
-    .copiar {
-        background: #E5E5E5;
-        border: 1px solid #0A3871;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.5em;
-        line-height: 120%;
-        width: 90%;
-        max-height: 50%;
-        margin: 0.3em auto;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0.5em;
-        text-align: center;
-        border-radius: 2em;
-    }
-    #copiar {
-        border: none;
-        background: none;
-        margin: 0 auto;
-        color: inherit;
-    } 
-    .hide{
-        display: none;
-    } 
+  .button p {
+    width: 100%;
+    max-height: 100%;
+    margin: auto 0.3em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1em;
+    border-radius: 2em;
+  }
+  .encriptar {
+    background: #0a3871;
+    color: #ffffff;
+  }
+  .encriptar input {
+    color: inherit;
+  }
+  .desencriptar {
+    background: #e5e5e5;
+    border: 1px solid #0a3871;
+  }
+  .desencriptar input {
+    color: inherit;
+  }
+  .button p input {
+    background: none;
+    border: none;
+    margin: 0 auto;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 120%;
+  }
+  .image {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .rectangulo {
+    /* Table 5 */ /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    height: 100%;
+    /* White */
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+  }
+  .resultado {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 150%;
+    /* or 29 pixels */
+    text-align: center;
+    /* Gray/gray-500 */
+    color: #343a40;
+    /* Auto layout inside */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .leyenda-banner {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 120%;
+    /* or 24 pixels */
+    text-align: center;
+    /* Gray/gray-400 */
+    color: #495057;
+    /* Auto layout inside */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .copiar {
+    background: #e5e5e5;
+    border: 1px solid #0a3871;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 120%;
+    width: 90%;
+    max-height: 50%;
+    margin: 0.3em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 2em;
+  }
+  #copiar {
+    border: none;
+    background: none;
+    margin: 0 auto;
+    color: inherit;
+  }
+  .hide {
+    display: none;
+  }
 }
 
 /* Escritorios muy anchos
  1200 x 800
    ------------------------------------------------------------------------- */
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
 
 /* Otros
  1360 x 768//1366 x 768
  ---------------------------------------------------------------------------*/
 
-@media screen and (min-width: 1360px) {}
+@media screen and (min-width: 1360px) {
+}
